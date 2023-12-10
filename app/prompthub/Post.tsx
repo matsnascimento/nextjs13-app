@@ -203,7 +203,7 @@ export default function Post({
           </div>
         </CardHeader>
         <CardBody>
-          <p>{linkifiedContent}</p>
+          <div>{linkifiedContent}</div>
         </CardBody>
         <CardFooter>
           <Link href={`/posts/${id}`}>

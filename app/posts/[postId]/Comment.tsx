@@ -142,7 +142,7 @@ export default function Comment({
           </div>
         </CardHeader>
         <CardBody>
-          <p>{linkifiedContent}</p>
+          <div>{linkifiedContent}</div>
         </CardBody>
         {userId === user?.id && (
           <CardFooter>

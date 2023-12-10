@@ -6,9 +6,9 @@ import Header from "./Header";
 import Post from "./Post";
 
 export default function Feed({
-  posts,
+  prompts,
 }: {
-  posts: {
+  prompts: {
     id: string;
     content: string;
     user: User;
@@ -28,7 +28,20 @@ export default function Feed({
         <Spacer y={0.5} />
         <Header />
 
-        {posts?.map((post) => (
+        <Post
+            key="1"
+            id="1"
+            userId="1"
+            subscriptionStatus="1"
+            name="Prompt"
+            avatar=""
+            createdAt=""
+            content="Novo Teste"
+            likes={[]}
+            comments={[]}
+          />
+
+        {/* {posts?.map((post) => (
           <Post
             key={post.id}
             id={post.id}
@@ -41,7 +54,7 @@ export default function Feed({
             likes={post.likes}
             comments={post.comments}
           />
-        ))}
+        ))} */}
       </div>
     </main>
   );

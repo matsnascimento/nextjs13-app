@@ -10,7 +10,7 @@ export default function ProvidersWrapper({
 }) {
   return (
     <SessionProvider>
-      <NextThemesProvider defaultTheme="dark" attribute="class">
+      <NextThemesProvider defaultTheme='dark' attribute="class">
         <NextUIProvider>{children}</NextUIProvider>
       </NextThemesProvider>
     </SessionProvider>

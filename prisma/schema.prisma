@@ -52,6 +52,7 @@ model User {
   likes              Like[]
   accounts           Account[]
   sessions           Session[]
+  prompts            Prompt[]
 }
 
 model VerificationToken {
@@ -98,9 +99,9 @@ model Comment {
 
 model CategoryPrompt {
   id       String   @id @default(cuid())
-  content  String
+  content  String   @unique
   iconName String   @default("other")
-  prompt   Prompt[]
+  prompts  Prompt[]
 }
 
 model Language {
@@ -116,8 +117,9 @@ model Prompt {
   title      String
   content    String
   languageId String
-  categoryId String
   language   Language       @relation(fields: [languageId], references: [id])
-  category   CategoryPrompt @relation(fields: [categoryId], references: [id])
+  categories CategoryPrompt[]
+  user       User           @relation(fields: [userId], references: [id])
+  userId     String
   isPrivate  Boolean        @default(true)
 }
