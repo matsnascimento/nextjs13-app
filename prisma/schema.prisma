@@ -6,8 +6,8 @@ generator client {
 }
 
 datasource db {
-  provider = "postgresql"
-  url      = env("DATABASE_URL")
+  provider = "mysql"
+  url      = env("MYSQL_DATABASE_URL")
 }
 
 model Account {
@@ -45,6 +45,7 @@ model User {
   name               String?
   email              String?   @unique
   emailVerified      DateTime?
+  password           String?
   image              String?
   posts              Post[]
   comments           Comment[]
@@ -89,4 +90,34 @@ model Comment {
   postId    String
   userId    String
   createdAt DateTime @default(now())
+}
+
+// -------------------------
+//     MODEL || PROMPT HUB
+// -------------------------
+
+model CategoryPrompt {
+  id       String   @id @default(cuid())
+  content  String
+  iconName String   @default("other")
+  prompt   Prompt[]
+}
+
+model Language {
+  id     String   @id @default(cuid())
+  text   String
+  prompt Prompt[]
+}
+
+model Prompt {
+  id         String         @id @default(cuid())
+  createdAt  DateTime       @default(now())
+  updatedAt  DateTime       @updatedAt
+  title      String
+  content    String
+  languageId String
+  categoryId String
+  language   Language       @relation(fields: [languageId], references: [id])
+  category   CategoryPrompt @relation(fields: [categoryId], references: [id])
+  isPrivate  Boolean        @default(true)
 }

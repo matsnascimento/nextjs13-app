@@ -5,3 +5,9 @@
 body {
   overflow-y: scroll;
 }
+
+@layer base{
+  body {
+      @apply dark:bg-slate-900 bg-gray-200
+  }
+}
