@@ -13,7 +13,7 @@ export default async function handler(
         },
         include: {
           user: true,
-          category: true,
+          categories: true,
           language: true,
         },
       });

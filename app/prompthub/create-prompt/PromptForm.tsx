@@ -108,7 +108,7 @@ export default function AddPost(): JSX.Element {
                 <input id="category-1" type="checkbox" className="peer sr-only" value="1" />
                 <div className="border-slate-200 dark:bg-slate-200/5 dark:border-slate-200/10 text-sm cursor-pointer transition-colors hover hover:bg-blue-100 dark:hover:bg-blue-500/30 peer-checked:text-white peer-checked:bg-blue-500 flex items-center gap-1 px-2 py-1 text-slate-900 dark:text-white rounded-md border">
                   <span className="[&amp;>svg]:w-4 [&amp;>svg]:h-4">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLineCap="round" strokeLinejoin="round">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
                       <path stroke="none" d="M0 0h24v24H0z" fill="none">
 
                       </path>
@@ -137,7 +137,7 @@ export default function AddPost(): JSX.Element {
                 <input id="category-2" type="checkbox" className="peer sr-only" value="2" />
                 <div className="border-slate-200 dark:bg-slate-200/5 dark:border-slate-200/10 text-sm cursor-pointer transition-colors hover hover:bg-blue-100 dark:hover:bg-blue-500/30 peer-checked:text-white peer-checked:bg-blue-500 flex items-center gap-1 px-2 py-1 text-slate-900 dark:text-white rounded-md border">
                   <span className="[&amp;>svg]:w-4 [&amp;>svg]:h-4">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLineCap="round" strokeLinejoin="round">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
                       <path stroke="none" d="M0 0h24v24H0z" fill="none">
 
                       </path>
@@ -157,7 +157,7 @@ export default function AddPost(): JSX.Element {
                 <input id="category-3" type="checkbox" className="peer sr-only" value="3" />
                 <div className="border-slate-200 dark:bg-slate-200/5 dark:border-slate-200/10 text-sm cursor-pointer transition-colors hover hover:bg-blue-100 dark:hover:bg-blue-500/30 peer-checked:text-white peer-checked:bg-blue-500 flex items-center gap-1 px-2 py-1 text-slate-900 dark:text-white rounded-md border">
                   <span className="[&amp;>svg]:w-4 [&amp;>svg]:h-4">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLineCap="round" strokeLinejoin="round">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
                       <path stroke="none" d="M0 0h24v24H0z" fill="none">
 
                       </path>
@@ -180,7 +180,7 @@ export default function AddPost(): JSX.Element {
                 <input id="category-5" type="checkbox" className="peer sr-only" value="5" />
                 <div className="border-slate-200 dark:bg-slate-200/5 dark:border-slate-200/10 text-sm cursor-pointer transition-colors hover hover:bg-blue-100 dark:hover:bg-blue-500/30 peer-checked:text-white peer-checked:bg-blue-500 flex items-center gap-1 px-2 py-1 text-slate-900 dark:text-white rounded-md border">
                   <span className="[&amp;>svg]:w-4 [&amp;>svg]:h-4">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLineCap="round" strokeLinejoin="round">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
                       <path stroke="none" d="M0 0h24v24H0z" fill="none">
 
                       </path>
@@ -209,7 +209,7 @@ export default function AddPost(): JSX.Element {
                 <input id="category-6" type="checkbox" className="peer sr-only" value="6" />
                 <div className="border-slate-200 dark:bg-slate-200/5 dark:border-slate-200/10 text-sm cursor-pointer transition-colors hover hover:bg-blue-100 dark:hover:bg-blue-500/30 peer-checked:text-white peer-checked:bg-blue-500 flex items-center gap-1 px-2 py-1 text-slate-900 dark:text-white rounded-md border">
                   <span className="[&amp;>svg]:w-4 [&amp;>svg]:h-4">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLineCap="round" strokeLinejoin="round">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
                       <path stroke="none" d="M0 0h24v24H0z" fill="none">
 
                       </path>
@@ -241,7 +241,7 @@ export default function AddPost(): JSX.Element {
                 <input id="category-7" type="checkbox" className="peer sr-only" value="7" />
                 <div className="border-slate-200 dark:bg-slate-200/5 dark:border-slate-200/10 text-sm cursor-pointer transition-colors hover hover:bg-blue-100 dark:hover:bg-blue-500/30 peer-checked:text-white peer-checked:bg-blue-500 flex items-center gap-1 px-2 py-1 text-slate-900 dark:text-white rounded-md border">
                   <span className="[&amp;>svg]:w-4 [&amp;>svg]:h-4">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLineCap="round" strokeLinejoin="round">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
                       <path stroke="none" d="M0 0h24v24H0z" fill="none">
 
                       </path>
@@ -276,7 +276,7 @@ export default function AddPost(): JSX.Element {
                 <input id="category-8" type="checkbox" className="peer sr-only" value="8" />
                 <div className="border-slate-200 dark:bg-slate-200/5 dark:border-slate-200/10 text-sm cursor-pointer transition-colors hover hover:bg-blue-100 dark:hover:bg-blue-500/30 peer-checked:text-white peer-checked:bg-blue-500 flex items-center gap-1 px-2 py-1 text-slate-900 dark:text-white rounded-md border">
                   <span className="[&amp;>svg]:w-4 [&amp;>svg]:h-4">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLineCap="round" strokeLinejoin="round">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
                       <path stroke="none" d="M0 0h24v24H0z" fill="none">
 
                       </path>
@@ -302,7 +302,7 @@ export default function AddPost(): JSX.Element {
                 <input id="category-9" type="checkbox" className="peer sr-only" value="9" />
                 <div className="border-slate-200 dark:bg-slate-200/5 dark:border-slate-200/10 text-sm cursor-pointer transition-colors hover hover:bg-blue-100 dark:hover:bg-blue-500/30 peer-checked:text-white peer-checked:bg-blue-500 flex items-center gap-1 px-2 py-1 text-slate-900 dark:text-white rounded-md border">
                   <span className="[&amp;>svg]:w-4 [&amp;>svg]:h-4">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLineCap="round" strokeLinejoin="round">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
                       <path stroke="none" d="M0 0h24v24H0z" fill="none">
 
                       </path>
@@ -331,7 +331,7 @@ export default function AddPost(): JSX.Element {
                 <input id="category-10" type="checkbox" className="peer sr-only" value="10" />
                 <div className="border-slate-200 dark:bg-slate-200/5 dark:border-slate-200/10 text-sm cursor-pointer transition-colors hover hover:bg-blue-100 dark:hover:bg-blue-500/30 peer-checked:text-white peer-checked:bg-blue-500 flex items-center gap-1 px-2 py-1 text-slate-900 dark:text-white rounded-md border">
                   <span className="[&amp;>svg]:w-4 [&amp;>svg]:h-4">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLineCap="round" strokeLinejoin="round">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
                       <path stroke="none" d="M0 0h24v24H0z" fill="none">
 
                       </path>
@@ -351,7 +351,7 @@ export default function AddPost(): JSX.Element {
                 <input id="category-11" type="checkbox" className="peer sr-only" value="11" />
                 <div className="border-slate-200 dark:bg-slate-200/5 dark:border-slate-200/10 text-sm cursor-pointer transition-colors hover hover:bg-blue-100 dark:hover:bg-blue-500/30 peer-checked:text-white peer-checked:bg-blue-500 flex items-center gap-1 px-2 py-1 text-slate-900 dark:text-white rounded-md border">
                   <span className="[&amp;>svg]:w-4 [&amp;>svg]:h-4">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLineCap="round" strokeLinejoin="round">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
                       <path stroke="none" d="M0 0h24v24H0z" fill="none">
 
                       </path>
@@ -383,7 +383,7 @@ export default function AddPost(): JSX.Element {
                 <input id="category-12" type="checkbox" className="peer sr-only" value="12" />
                 <div className="border-slate-200 dark:bg-slate-200/5 dark:border-slate-200/10 text-sm cursor-pointer transition-colors hover hover:bg-blue-100 dark:hover:bg-blue-500/30 peer-checked:text-white peer-checked:bg-blue-500 flex items-center gap-1 px-2 py-1 text-slate-900 dark:text-white rounded-md border">
                   <span className="[&amp;>svg]:w-4 [&amp;>svg]:h-4">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLineCap="round" strokeLinejoin="round">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
                       <path stroke="none" d="M0 0h24v24H0z" fill="none">
 
                       </path>
@@ -409,7 +409,7 @@ export default function AddPost(): JSX.Element {
                 <input id="category-13" type="checkbox" className="peer sr-only" value="13" />
                 <div className="border-slate-200 dark:bg-slate-200/5 dark:border-slate-200/10 text-sm cursor-pointer transition-colors hover hover:bg-blue-100 dark:hover:bg-blue-500/30 peer-checked:text-white peer-checked:bg-blue-500 flex items-center gap-1 px-2 py-1 text-slate-900 dark:text-white rounded-md border">
                   <span className="[&amp;>svg]:w-4 [&amp;>svg]:h-4">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLineCap="round" strokeLinejoin="round">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
                       <path stroke="none" d="M0 0h24v24H0z" fill="none">
 
                       </path>
@@ -432,7 +432,7 @@ export default function AddPost(): JSX.Element {
                 <input id="category-14" type="checkbox" className="peer sr-only" value="14" />
                 <div className="border-slate-200 dark:bg-slate-200/5 dark:border-slate-200/10 text-sm cursor-pointer transition-colors hover hover:bg-blue-100 dark:hover:bg-blue-500/30 peer-checked:text-white peer-checked:bg-blue-500 flex items-center gap-1 px-2 py-1 text-slate-900 dark:text-white rounded-md border">
                   <span className="[&amp;>svg]:w-4 [&amp;>svg]:h-4">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLineCap="round" strokeLinejoin="round">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
                       <path stroke="none" d="M0 0h24v24H0z" fill="none">
 
                       </path>
@@ -461,7 +461,7 @@ export default function AddPost(): JSX.Element {
                 <input id="category-15" type="checkbox" className="peer sr-only" value="15" />
                 <div className="border-slate-200 dark:bg-slate-200/5 dark:border-slate-200/10 text-sm cursor-pointer transition-colors hover hover:bg-blue-100 dark:hover:bg-blue-500/30 peer-checked:text-white peer-checked:bg-blue-500 flex items-center gap-1 px-2 py-1 text-slate-900 dark:text-white rounded-md border">
                   <span className="[&amp;>svg]:w-4 [&amp;>svg]:h-4">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLineCap="round" strokeLinejoin="round">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
                       <path stroke="none" d="M0 0h24v24H0z" fill="none">
 
                       </path>
@@ -487,7 +487,7 @@ export default function AddPost(): JSX.Element {
             <div className="select-none">
 
               <div className="relative text-slate-900 dark:text-white">
-                <svg xmlns="http://www.w3.org/2000/svg" className="absolute right-2 w-3.5 h-3.5 top-1/2 -translate-y-1/2" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2.5" stroke="currentColor" fill="none" strokeLineCap="round" strokeLinejoin="round">
+                <svg xmlns="http://www.w3.org/2000/svg" className="absolute right-2 w-3.5 h-3.5 top-1/2 -translate-y-1/2" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
                   <path stroke="none" d="M0 0h24v24H0z" fill="none">
                   </path>
                   <path d="M6 9l6 6l6 -6">

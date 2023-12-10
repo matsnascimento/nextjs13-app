@@ -9,7 +9,7 @@ export default async function handler(
     const data = await prisma.prompt.findMany({
       include: {
         user: true,
-        category: true,
+        categories: true,
         language: true,
       },
       orderBy: {

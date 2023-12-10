@@ -26,7 +26,7 @@ export default async function Posts() {
   // console.log(data);
   return (
     <main>
-      <Prompts posts={data} />
+      <Prompts prompts={data} />
     </main>
   );
 }

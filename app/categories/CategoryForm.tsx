@@ -176,9 +176,9 @@ export default function AddCategory({
               <div className="px-1 py-2">
                 <div className="text-small font-bold">Como encontrar os ícones?</div>
                 <Spacer y={1.5} />
-                <div className="text-tiny">Utilize a opção que possui o tipo do ícone seguido por uma barra "/" e o nome do ícone.</div>
+                <div className="text-tiny">Utilize a opção que possui o tipo do ícone seguido por uma barra {'"/"'} e o nome do ícone.</div>
                 <Spacer y={1} />
-                <div className="text-tiny">Exemplo: "md/MdAdjust", "pi/PiAirplayDuotone" ou "ci/CiUser"</div>
+                <div className="text-tiny">{'Exemplo: "md/MdAdjust", "pi/PiAirplayDuotone" ou "ci/CiUser"'}</div>
               </div>
             </PopoverContent>
           </Popover>
