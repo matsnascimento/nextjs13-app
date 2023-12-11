@@ -3,7 +3,7 @@ import openai from "@/lib/openai";
 
 export async function POST(request: Request) {
   const { prompt } = await request.json();
-  const chatCompletion = await openai.createChatCompletion({
+  const chatCompletion = await openai.chat.completions.create({
     model: "gpt-3.5-turbo",
     temperature: 0.8,
     n: 1,
@@ -16,5 +16,5 @@ export async function POST(request: Request) {
     ],
   });
 
-  return NextResponse.json(chatCompletion.data.choices[0].message);
+  return NextResponse.json(chatCompletion.choices[0].message);
 }
