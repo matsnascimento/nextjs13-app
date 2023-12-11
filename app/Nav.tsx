@@ -96,24 +96,6 @@ export default function Nav() {
             Home
           </Link>
         </NavbarItem>
-        <NavbarItem isActive={segment === "posts"}>
-          <Link
-            color={segment === "posts" ? undefined : "foreground"}
-            href="/posts"
-            as={NextLink}
-          >
-            Feed
-          </Link>
-        </NavbarItem>
-        <NavbarItem isActive={segment === "subscribe"}>
-          <Link
-            color={segment === "subscribe" ? undefined : "foreground"}
-            href="/subscribe"
-            as={NextLink}
-          >
-            Subscribe
-          </Link>
-        </NavbarItem>
         <NavbarItem isActive={segment === "prompthub"}>
           <Link
             color={segment === "prompthub" ? undefined : "foreground"}
@@ -121,6 +103,15 @@ export default function Nav() {
             as={NextLink}
           >
             Prompt HUB
+          </Link>
+        </NavbarItem>
+        <NavbarItem isActive={segment === "categories"}>
+          <Link
+            color={segment === "categories" ? undefined : "foreground"}
+            href="/categories"
+            as={NextLink}
+          >
+            Categorias
           </Link>
         </NavbarItem>
       </NavbarContent>
@@ -194,12 +185,12 @@ export default function Nav() {
             style={{
               minWidth: "100%",
               color: "inherit",
-              fontWeight: segment === "posts" ? "bold" : "normal",
+              fontWeight: segment === "prompthub" ? "bold" : "normal",
             }}
-            href="/posts"
+            href="/prompthub"
             as={NextLink}
           >
-            Feed
+            Prompt HUB
           </Link>
         </NavbarMenuItem>
         <NavbarMenuItem>
@@ -207,12 +198,12 @@ export default function Nav() {
             style={{
               minWidth: "100%",
               color: "inherit",
-              fontWeight: segment === "subscribe" ? "bold" : "normal",
+              fontWeight: segment === "categories" ? "bold" : "normal",
             }}
-            href="/subscribe"
+            href="/categories"
             as={NextLink}
           >
-            Subscribe
+            Categorias
           </Link>
         </NavbarMenuItem>
       </NavbarMenu>

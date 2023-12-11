@@ -12,17 +12,17 @@ import {
 import { useSession } from "next-auth/react";
 import { useTheme } from "next-themes";
 
-export default function HomePage({ numStars }: { numStars: string }) {
+export default function HomePage() {
   const { theme, setTheme } = useTheme();
   const { data: session } = useSession();
   const { user } = session || {};
 
   const cardItems = [
     {
-      title: "Next.js 13",
+      title: "Next.js 14",
       description: "App directory, routing, layouts, and API routes.",
-      footer: "Next.js 13 Beta documentation",
-      url: "https://beta.nextjs.org/docs",
+      footer: "Next.js 14 Beta documentation",
+      url: "https://nextjs.org/docs",
       svg: (
         <svg viewBox="0 0 24 24" style={{ height: 32 }}>
           <path
@@ -278,7 +278,7 @@ export default function HomePage({ numStars }: { numStars: string }) {
 
       <div className="space-y-4 text-center">
         <h1
-          className="pb-2 font-bold text-5xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
+          className="pb-2 font-bold text-5xl text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-yellow-600"
         >
           Welcome{user && `, ${user.name}`}!
         </h1>
@@ -288,7 +288,7 @@ export default function HomePage({ numStars }: { numStars: string }) {
 
         <Spacer y={1} />
 
-        <div className="flex flex-wrap space-x-4 justify-center">
+        {/* <div className="flex flex-wrap space-x-4 justify-center">
           <Button
             className="font-medium bg-gradient-to-r from-pink-500 to-yellow-600 text-white shadow-lg"
             onClick={() =>
@@ -297,15 +297,9 @@ export default function HomePage({ numStars }: { numStars: string }) {
           >
             Source Code on GitHub
           </Button>
+        </div> */}
 
-          <Link href="https://github.com/yaseenmustapha/nextjs13-app">
-            <p className="text-lg font-medium text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 to-pink-500 pr-2">
-              {numStars} stars on GitHub
-            </p>
-          </Link>
-        </div>
-
-        <User
+        {/* <User
         className="font-medium text-medium"
           name="Yaseen Mustapha"
           description={
@@ -317,7 +311,7 @@ export default function HomePage({ numStars }: { numStars: string }) {
             src: "https://avatars.githubusercontent.com/u/26501999",
           }}
           onClick={() => window.open("https://github.com/yaseenmustapha")}
-        />
+        /> */}
 
         <Spacer y={5} />
 
